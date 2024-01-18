@@ -1,7 +1,7 @@
 # Non-Linear PA Calculator
-This is a calculator that can be used to approximate non-linear pressure advance parameters based on known PA values at different speeds/flowrates.  Non-Linear PA is a part of [dmbutyugin's advanced-features](https://github.com/DangerKlippers/danger-klipper/pull/69).  It autoadjusts pressure advance parameters to compensate for necessary changes in in the effective pressure advance at different speeds/flowrates;.
+This is a calculator built in Excel that can be used to approximate non-linear pressure advance parameters based on known PA values at different speeds/flowrates.  Non-Linear PA is a part of [dmbutyugin's advanced-features](https://github.com/DangerKlippers/danger-klipper/pull/69).  It autoadjusts pressure advance parameters to compensate for necessary changes in in the effective pressure advance at different speeds/flowrates;.
 
-It is recommended to have the [Solver Add-In](https://support.microsoft.com/en-us/office/load-the-solver-add-in-in-excel-612926fc-d53b-46b4-872c-e24772f078ca) installed for this calculator.  You can manually adjust the parameters to get them to line up, but running Solver first typically gets pretty good values.
+It is recommended to have the [Solver Add-In](https://support.microsoft.com/en-us/office/load-the-solver-add-in-in-excel-612926fc-d53b-46b4-872c-e24772f078ca) for Excel installed for this calculator.  You can manually adjust the parameters to get them to line up, but running Solver first typically gets pretty good values.
 
 ## Instructions
 
