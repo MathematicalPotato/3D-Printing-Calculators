@@ -23,7 +23,8 @@ These are the non-linear PA parameters.  There are two sets, one for the TANH mo
 
 These cells will be the variable cells that can be manipulated either automatically with the Solver Add-in or manually.  Manually adjusting the values can be useful to help visualize how the different parameters impact the effective PA curves of the non-linear models.
 
-Solver will take whatever is in these cells prior to running as starting points and then approximate the non-linear PA parameters into the same cells.  It is recommended to be fairly close (order of magnitude), otherwise Solver may have issues convergeing.  Ideally the nonlinear plots (pink and blue lines) will line up with/overlap the measured PA values (green points) on the plot.  Non-linear PA parameters can be manually modified to get closer to overlapping if Solver does not converge to satisfactory values.
+Solver will take whatever is in these cells prior to running as starting points and then approximate the non-linear PA parameters into the same cells.  It is recommended to be fairly close (order of magnitude), otherwise Solver may have issues convergeing.  Ideally the nonlinear plots (pink and blue lines) will line up with/overlap the measured PA values (green points) on the plot.  Non-linear PA parameters can be manually modified to get closer to overlapping if Solver does not converge to satisfactory values.  There are recommended starting values for the parameters with smooth_time: 0.015.  For other setups you may need to raise the starting values.
+![MP-Non-Linear-PA-Pic003](Images/range.png)
 
 To run Solver go to the "Data" tab in Excel and it will be on the right side of the toolbar in the "Analysis" Section:
 ![MP-Non-Linear-PA-Pic003](Images/solver-location.png)
