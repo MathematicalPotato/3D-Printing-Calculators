@@ -1,4 +1,0 @@
-# Belt Tension Calculator
-This is a calculator built in Excel that can be used to output pluck frequencies at the recommended belt tensions per GATES specifications for their 2MGT belts. This sheet is compatible with 2MGT GT2 with widths of 6-12mm, EPDM 2MGT GT2 with widths of 6-12mm, and 2MGT GT3 belts with widths from 6-20mm.  
-
-To use the sheet, input input the belt type, width and length of the belt span that will be measured. The options are as follows
