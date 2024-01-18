@@ -34,7 +34,7 @@ To run Solver go to the "Data" tab in Excel and it will be on the right side of 
 
 Once Solver is open just click "Solve" and it will run:
 
-![MP-Non-Linear-PA-Pic003](Images/solver-location.png)
+![MP-Non-Linear-PA-Pic003](Images/solver.png)
 
 ### Warning
 This model is just an approximation and given that PA won't have much of a measurable difference beyond the thousandths place with two significant figures (0.0XX) this model will get close, but likely will not be "perfect" compared to and the measured values.  This also means that Solver will likely give this error when it converges:
