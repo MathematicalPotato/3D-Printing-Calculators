@@ -9,6 +9,7 @@ It is recommended to have the [Solver Add-In](https://support.microsoft.com/en-u
 These cells take up the majority of the sheet and should not need to be modified.  They are used for fixed values or for calculations.
 
 ### Yellow "Input" Cells
+
 ![MP-Non-Linear-PA-Pic001](MP_Non-Linear_PA_Calculator/Images/yellow-inputs.png)
 
 Filament diameter, line width, and layer height need to be added to approximate the flowrate and pa_velocity values used for calculations.
@@ -17,6 +18,7 @@ Pressure Advance values will need to be measured and input for a few different s
 
 
 ### Green "Output/Variable" Cells
+
 ![MP-Non-Linear-PA-Pic002](MP_Non-Linear_PA_Calculator/Images/green-outputs.png)
 
 These are the non-linear PA parameters.  There are two sets, one for the TANH model and one for the RECIP model.  Either model can be used, but RECIP drops off faster in the lower speed/flowrate range which is generally less ideal for printing.  From testing it seems like most have have better success with the TANH model.
@@ -28,9 +30,11 @@ Solver will take whatever is in these cells prior to running as starting points 
 ![MP-Non-Linear-PA-Pic003](MP_Non-Linear_PA_Calculator/Images/range.png)
 
 To run Solver go to the "Data" tab in Excel and it will be on the right side of the toolbar in the "Analysis" Section:
+
 ![MP-Non-Linear-PA-Pic003](MP_Non-Linear_PA_Calculator/Images/solver-location.png)
 
 Once Solver is open just click "Solve" and it will run:
+
 ![MP-Non-Linear-PA-Pic003](MP_Non-Linear_PA_Calculator/Images/solver-location.png)
 
 ### Warning
@@ -40,6 +44,7 @@ This model is just an approximation and given that PA won't have much of a measu
 If this happens (in testing this error occurs almost every time) click "OK" to save the values or "Cancel" to revert them to the starting values.  During testing if the residual cells were calculated to be small enough to avoid the error the models would converge with the parameters not changing at all.  If the non-linear model plots overlap the measured points, it is recommended to just click "OK" and use the values as these parameters are likely as close as possible. 
 
 ### Example of a good plot
+
 ![MP-Non-Linear-PA-Pic003](MP_Non-Linear_PA_Calculator/Images/plot1.png)
 
 ## Updates
