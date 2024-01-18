@@ -9,7 +9,7 @@ It is recommended to have the [Solver Add-In](https://support.microsoft.com/en-u
 These cells take up the majority of the sheet and should not need to be modified.  They are used for fixed values or for calculations.
 
 ### Yellow "Input" Cells
-![MP-Non-Linear-PA-Pic001](Images/inputs.png)
+![MP-Non-Linear-PA-Pic001](Images/yellow-inputs.png)
 
 Filament diameter, line width, and layer height need to be added to approximate the flowrate and pa_velocity values used for calculations.
 
@@ -17,7 +17,7 @@ Pressure Advance values will need to be measured and input for a few different s
 
 
 ### Green "Output/Variable" Cells
-![MP-Non-Linear-PA-Pic002](Images/outputs.png)
+![MP-Non-Linear-PA-Pic002](Images/green-outputs.png)
 
 These are the non-linear PA parameters.  There are two sets, one for the TANH model and one for the RECIP model.  Either model can be used, but RECIP drops off faster in the lower speed/flowrate range which is generally less ideal for printing.  From testing it seems like most have have better success with the TANH model.
 
