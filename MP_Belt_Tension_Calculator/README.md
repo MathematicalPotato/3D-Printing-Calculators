@@ -19,3 +19,10 @@ Input the length of the belt span.  This should be the distance between the cent
 ![MP-Belt-Tension-Pic003](Images/green-outputs.png)
 
 These are the belt frequency outputs.  Compare these to values measured when you pluck the belts along the input belt span using a sound Spectrum Analyzer phone application or similar.  The [GATES Carbon Drive](https://play.google.com/store/apps/details?id=com.gates.carbondrivecalculator&hl=en_US&gl=US) and [Panotuner](https://play.google.com/store/apps/details?id=com.soundlim.panotuner&hl=en_US&gl=US) apps have worked well, but there are lots of other options.  Then just adjust the belt tension until the measured frequencies match the outputs.
+
+## Updates
+
+### 1/18/2024
+Initial Upload.
+
+Revise with corrections to GT2 12mm belt density and add GT2 10mm width to the calculator.  Also updated file name to show revision number for tracking.
