@@ -25,13 +25,13 @@ These cells will be the variable cells that can be manipulated either automatica
 
 Solver will take whatever is in these cells prior to running as starting points and then approximate the non-linear PA parameters into the same cells.  It is recommended to be fairly close (order of magnitude), otherwise Solver may have issues convergeing.  Ideally the nonlinear plots (pink and blue lines) will line up with/overlap the measured PA values (green points) on the plot.  Non-linear PA parameters can be manually modified to get closer to overlapping if Solver does not converge to satisfactory values.
 
-#### Example of a good plot
+### Example of a good plot
 ![MP-Non-Linear-PA-Pic003](Images/plot1.png)
 
 
 
 ## Updates
 
-# 2024-01-18
+### 2024-01-18
 
 Initial upload of the Non-Linear PA Calculator.
