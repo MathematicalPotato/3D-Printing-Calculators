@@ -14,7 +14,7 @@ These cells take up the majority of the sheet and should not need to be modified
 
 Filament diameter, line width, and layer height need to be added to approximate the flowrate and pa_velocity values used for calculations.
 
-Pressure Advance values will need to be measured and input for a few different speeds/flowrates across the range intended for printing.  These values can be captured with standard Pressure Advance by running a PA tuning tool or by manually adjusting PA by eye during normal printing until you are satisfied.  Both will need to be done at specific print speeds.  It is recommended to input as many as values as possible, but decent data should be possible with 5-6 measured values as long as values are captured throughout the full speed range intended for printing.
+The first step for using the calculator should be removing the pre-input "Measured PA" values, these are just example/test values.  Pressure Advance values will need to be measured and input for a few different speeds/flowrates across the range intended for printing.  These values can be captured with standard Pressure Advance by running a PA tuning tool or by manually adjusting PA by eye during normal printing until you are satisfied.  Both will need to be done at specific print speeds.  It is recommended to input as many as values as possible, but decent data should be possible with 5-6 measured values as long as values are captured throughout the full speed range intended for printing.
 
 ### Green "Output/Variable" Cells
 
